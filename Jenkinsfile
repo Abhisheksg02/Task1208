@@ -6,8 +6,6 @@ pipeline {
                 echo 'Build App'
             }
         }
-        
-    
         stage('test'){
             steps{
                 echo 'Test App'
